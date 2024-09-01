@@ -1,0 +1,219 @@
+<html style="background-color: #333333;">
+<head>
+<title>
+            Apartments
+        </title>
+<link href="../../css/HomeScreen.css" rel="stylesheet"/>
+</head>
+<header class="header">
+<a href="../HomeScreen.html" style="text-decoration: none;"><div class="title">- CAMPUS SUBLEASE -</div> </a>
+<nav class="nav-links">
+<a class="nav-link" href="houses.html" id="houseLink">HOUSES</a>
+<a class="nav-link" href="apartments.html">APARTMENTS</a>
+<a class="nav-link" href="roommates.html">ROOMMATES</a>
+<a class="nav-link" href="parking.html">PARKING</a>
+<a class="nav-link" href="account.html">ACCOUNT</a>
+<a class="nav-link" href="map.html">MAP</a>
+</nav>
+</header>
+<!-- here is where the page will start -->
+<div class="apartments-title">
+<!-- Apartments -->
+<!-- filter section checkboxes and such -->
+<div class="filter-box">
+<!-- checkboxes -->
+<a class="filter-checkbox" id="gender">Roommates
+                        <label><input type="checkbox"/> <span>male</span></label>
+<label><input type="checkbox"/> <span>female</span></label>
+<a class="filter-checkbox" id="utilities">Utilities
+                        <label><input type="checkbox"/> <span>all included</span></label>
+<label><input checked="checked" type="checkbox"/> <span>some included</span></label>
+</a>
+<a class="filter-checkbox" id="short-term">Short-term
+                        <label><input type="checkbox"/> <span>semester</span></label>
+<label><input type="checkbox"/> <span>summer</span></label>
+</a>
+<a class="filter-checkbox" id="parking">Parking
+                        <label><input type="checkbox"/> <span>yes</span></label>
+<label><input checked="checked" type="checkbox"/> <span>no</span></label>
+</a>
+<!-- inputs -->
+<a class="filter-input-cont" id="price">
+<input class="filter-input" min="0" placeholder="$ low" step="100" type="number"/>
+<input class="filter-input" min="0" placeholder="$ high" step="100" type="number"/>
+</a>
+<a class="filter-input-cont" id="amenities">
+<input class="filter-input" max="10" min="0" placeholder="# rooms" type="number"/>
+<input class="filter-input" max="10" min="0" placeholder="# bathrooms" type="number"/>
+<input class="filter-input" max="10" min="0" placeholder="# roommates" type="number"/>
+</a>
+<a class="search-cont">
+<button class="search-filter">Search</button>
+</a>
+</a></div>
+<!-- apartments info section -->
+<link href="../../css/grid.css" rel="stylesheet"/>
+<div class="apt-grid" id="grid">
+<div class="apt" id="A1">
+<a href="/apt-view?id=A1" style="text-decoration: none; color: #333333;">456 Maple Avenue
+                    <img class="apt-profile" src="../../images/profile-images/apartment-pf.jpg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">1 bed</a>
+<a class="apt-info">1 bath</a>
+<a class="apt-info">1 roommate</a>
+<a class="apt-info">$100 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A2">
+<a href="/apt-view?id=A2" style="text-decoration: none; color: #333333;">789 Oak Drive
+                    <img class="apt-profile" src="../../images/profile-images/house-pf.jpeg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">2 bed</a>
+<a class="apt-info">1 bath</a>
+<a class="apt-info">1 roommate</a>
+<a class="apt-info">$200 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A3">
+<a href="/apt-view?id=A3" style="text-decoration: none; color: #333333;">321 Pine Street
+                    <img class="apt-profile" src="../../images/profile-images/apartment-pf.jpg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">3 bed</a>
+<a class="apt-info">2 bath</a>
+<a class="apt-info">1 roommate</a>
+<a class="apt-info">$300 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A4">
+<a href="/apt-view?id=A4" style="text-decoration: none; color: #333333;">654 Cedar Lane
+                    <img class="apt-profile" src="../../images/profile-images/house-pf.jpeg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">4 bed</a>
+<a class="apt-info">2 bath</a>
+<a class="apt-info">1 roommate</a>
+<a class="apt-info">$400 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A5">
+<a href="/apt-view?id=A5" style="text-decoration: none; color: #333333;">987 Birch Road
+                    <img class="apt-profile" src="../../images/profile-images/house-pf.jpeg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">1 bed</a>
+<a class="apt-info">1 bath</a>
+<a class="apt-info">2 roommate</a>
+<a class="apt-info">$500 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A6">
+<a href="/apt-view?id=A6" style="text-decoration: none; color: #333333;">132 Elm Street
+                    <img class="apt-profile" src="../../images/profile-images/apartment-pf.jpg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">2 bed</a>
+<a class="apt-info">2 bath</a>
+<a class="apt-info">2 roommate</a>
+<a class="apt-info">$600 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A7">
+<a href="/apt-view?id=A7" style="text-decoration: none; color: #333333;">246 Willow Boulevard
+                    <img class="apt-profile" src="../../images/profile-images/apartment-pf.jpg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">3 bed</a>
+<a class="apt-info">3 bath</a>
+<a class="apt-info">2 roommate</a>
+<a class="apt-info">$700 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A8">
+<a href="/apt-view?id=A8" style="text-decoration: none; color: #333333;">579 Cherry Court
+                    <img class="apt-profile" src="../../images/profile-images/house-pf.jpeg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">4 bed</a>
+<a class="apt-info">4 bath</a>
+<a class="apt-info">2 roommate</a>
+<a class="apt-info">$800 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A9">
+<a href="/apt-view?id=A9" style="text-decoration: none; color: #333333;">813 Spruce Avenue
+                    <img class="apt-profile" src="../../images/profile-images/apartment-pf.jpg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">1 bed</a>
+<a class="apt-info">4 bath</a>
+<a class="apt-info">3 roommate</a>
+<a class="apt-info">$900 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A10">
+<a href="/apt-view?id=A10" style="text-decoration: none; color: #333333;">375 Sycamore Drive
+                    <img class="apt-profile" src="../../images/profile-images/house-pf.jpeg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">2 bed</a>
+<a class="apt-info">3 bath</a>
+<a class="apt-info">3 roommate</a>
+<a class="apt-info">$1000 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A11">
+<a href="/apt-view?id=A11" style="text-decoration: none; color: #333333;">264 Poplar Lane
+                    <img class="apt-profile" src="../../images/profile-images/house-pf.jpeg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">3 bed</a>
+<a class="apt-info">2 bath</a>
+<a class="apt-info">3 roommate</a>
+<a class="apt-info">$1100 / m</a>
+</div>
+</div>
+
+<div class="apt" id="A12">
+<a href="/apt-view?id=A12" style="text-decoration: none; color: #333333;">428 Magnolia Street
+                    <img class="apt-profile" src="../../images/profile-images/apartment-pf.jpg"/>
+</a>
+<div class="apt-info-cont">
+<a class="apt-info">4 bed</a>
+<a class="apt-info">1 bath</a>
+<a class="apt-info">3 roommate</a>
+<a class="apt-info">$1200 / m</a>
+</div>
+</div>
+</div>
+<!-- credits section -->
+<section>
+<!-- Just so that i can see what it looks like filled up with stuff -->
+<nav class="quick-links">
+<!-- other links lined up vertically -->
+<a class="nav-link" href="../links/houses.html" style="font-weight: 100;">HOUSES</a>
+<a class="nav-link" href="../links/apartments.html" style="font-weight: 100;">APARTMENTS</a>
+<a class="nav-link" href="../links/roommates.html" style="font-weight: 100;">ROOMMATES</a>
+<a class="nav-link" href="../links/parking.html" style="font-weight: 100;">PARKING</a>
+<a class="nav-link" href="../links/map.html" style="font-weight: 100;">MAP</a>
+</nav>
+</section>
+<section class="credits">
+                Student owned and operated | Madison WI
+                <br/>
+                ©️ 2024, All Rights Reserved
+            </section>
+</div>
+</html>

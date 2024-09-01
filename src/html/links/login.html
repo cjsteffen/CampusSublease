@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            LOGIN
+        </title>
+        <link rel="stylesheet" href="../../css/HomeScreen.css">
+    </head>
+
+    <header class="header" style="z-index: 2;">
+        <a href="../HomeScreen.html" style="text-decoration: none;"><div class="title">- CAMPUS SUBLEASE -</div> </a>
+        <nav class="nav-links">
+            <a id=houseLink class="nav-link" href="houses.html">HOUSES</a>
+            <a class="nav-link" href="apartments.html">APARTMENTS</a>
+            <a class="nav-link" href="roommates.html">ROOMMATES</a>
+            <a class="nav-link" href="parking.html">PARKING</a>
+            <a class="nav-link" href="account.html">ACCOUNT</a>
+            <a class="nav-link" href="map.html">MAP</a>
+        </nav>
+    </header>
+
+        <!-- here is where the page will start -->
+
+        <body>
+            <div class="login-screen">
+                <!-- login stuff -->
+                <a class="login-form">
+                    <form id="login-credentials" action="/write-logins" method="post">
+                        <label for="university" style="font-size: 20px;">Find your University - </label>
+                        <select id="university" name="university" class="university-search">
+                            <option value="uw-madison">University of Wisconsin - Madison</option>
+                            <option value="matc">Madison Area Technical College</option>
+                        </select><br>
+                        <label>Username</label><br>
+                        <input type="text" name="user" id="user" style="background-color: #EAF1FF; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; "><br>
+                        <label>Password</label><br>
+                        <input type="password" name="pass" id="pass" style="background-color: #EAF1FF; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; "><br>
+                        <br>
+                        <button type="submit" class="submit-button" id="submit-button">SUBMIT</button>
+                    </form>
+                    <!-- university login button? -->
+                </a>
+            </div>
+            <script src="../../js/main.js" defer></script>
+        </body>
+        
+</html>

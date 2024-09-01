@@ -1,0 +1,71 @@
+CAMPUS SUBLEASE BUSINESS PLAN 2024
+
+
+NEED TO STAND OUT AGAINST RENT COLLEGE PADS
+
+Executive Summary
+- Student Subleasing platform
+- Based out of madison (can go anywhere, it is an online platform)
+- Student run
+- Stil need to figure out finances
+- Allows for not only searching for roommates during the fall rush, but also throughout the year
+
+Company Description
+- Being that it is student run, we believe it will benefit the changing attitudes of students over the years
+- The goal for employees is to keep it student run, to gain experience for students, and maybe even have satellite shops at other schools
+- Consumers will be students looking to sublease, or to rent and find roommates, or to find parking, all within campus
+- Hoping to run ad revenue by bringing students into the website/app and connect with local landlords and businesses
+
+Market Analysis
+- # students from spring 2021-now "https://registrar.wisc.edu/enrollment-reports/"
+    - 46,059 | 47,830 | 48,577
+    - Growth of around 800-900 a year students
+    - https://www.huduser.gov/portal/sites/default/files/pdf/City-of-Madison-Housing-Snapshot-Report-2023.pdf
+- number houses
+    - 76,400 units
+    - https://www.realpage.com/analytics/madison-is-the-nations-second-strongest-apartment-market/
+- number of students at uw madison
+    - about 50,000
+- number students in the summer
+    - significantly decreases
+    - around 13,000 students enrolled
+- number students studying abroad
+    - 2,551 total students over all semesters and summer
+- (KEEP IN MIND 90% OF LEASES ARE YEAR ROUND)
+- vacancy rate of 2.8%
+
+
+Organization & Management
+- Student lead team
+- Purpose for just students is to get experiece coding and looking at business analytics
+
+Service or Product line
+- Subleasing platform that allows students to post, talk to, and find/sell subleases, parking, or a place to live.
+- Ad revenue for empty leases (partner with local student housing options/landlords to help get their ads to people in need)
+    - Per estimate of credits to referals, 250$ over the year would come out to around 20$ a month.
+    - Charging 10-20$ a unit seems reasonable
+
+Marketing and Sales
+- Tik tok -> "tell me your craziest roommate stories" interviews
+- Outreach to friends
+- Outreach through the university?
+- Provides a safe and trustworthy site
+
+Funding Request
+- Costs are most likely
+    - Website domain
+    - bucket for pictures
+    - bucket for data
+    - hosting servers
+    - copyright Costs
+    - legal costs
+
+Financial Projections
+- tbd (need to figure out how much to charge for ads, basically a free service right now)
+- 10-20$ per empty unit at 2.8% vacancy rate with 76,000 houses would be MAX 21,280$ a month at 10$ or 42,560$ at 20$
+- (that would just be max for madison wi)
+- future goals (5 years) of 5 large sized campuses -> MAX 106,400$-212,800$ a month
+
+Appendix
+- most is in 
+

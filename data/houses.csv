@@ -1,0 +1,10 @@
+Address,Bedrooms,Bathrooms,Roommates,Utilities,Short Term,Parking,Price,Gender,ImagePath,ID
+111 St. James Court,1,1,0,all,yes,no,500,male,house-pf.jpeg,H1
+222 Randall Court,2,1,0,all,yes,no,600,male,apartment-pf.jpg,H2
+333 Wescott Ave,3,2,1,all,yes,no,700,male,house-pf.jpeg,H3
+444 Tennessee Drive,4,2,2,all,yes,no,800,male,house-pf.jpeg,H4
+555 Atlantic Ave,1,1,0,some,no,yes,800,female,apartment-pf.jpg,H5
+666 Charles Lane,2,1,0,some,no,yes,700,female,apartment-pf.jpg,H6
+777 Hawksbury Circle,3,2,2,some,no,yes,600,female,house-pf.jpeg,H7
+888 France Ave,4,2,1,some,no,yes,500,female,apartment-pf.jpg,H8
+999 Bluejay Lane,1,1,0,some,no,yes,1000,male,house-pf.jpeg,H9

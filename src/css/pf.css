@@ -1,0 +1,247 @@
+*, *:after, *:before {margin: 0; padding: 0; box-sizing: border-box; position: relative;}
+
+.frame-container {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.frame-main {
+}
+
+.frame-block2 {
+	width: 700px;
+    height: 400px;
+	display: inline-block;
+	
+	margin: 20px;
+	padding-top: 25px;
+	/* border: 2px #0066FF solid; */
+	vertical-align: top;
+}
+.frame-block1 {
+	width: 700px;
+    height: 500px;
+	display: inline-block;
+	
+	margin: 20px;
+	/* border: 2px #0066FF solid; */
+	vertical-align: top;
+}
+.frame-block3 {
+	width: 700px;
+    height: 200px;
+	display: inline-block;
+	
+	margin: 20px;
+	/* border: 2px #0066FF solid; */
+	vertical-align: top;
+}
+.frame-block4 {
+	width: 700px;
+    height: 200px;
+	display: inline-block;
+	
+	margin: 20px;
+	/* border: 2px #0066FF solid; */
+	vertical-align: top;
+}
+
+
+/* Houses and apartments profiles */
+.back-button-pf {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: #333333;
+    padding-left: 30px;
+    color: #E4F1FF;
+    height: 50px;
+	text-decoration: none;
+	float: left;
+	padding-top: 10px;
+}
+.seller-info {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+	color: #E4F1FF;
+	display: grid;
+    place-items: center;
+    width: 100%;
+	padding-bottom: 80px;
+}
+.big-image {
+    background: url("../images/profile-images/bedroom.webp");
+    background-size: 540px 400px, cover;
+    height: 400px;
+    width: 540px;
+    border-radius: 12px;
+}
+.small-images {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.small-images img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.pf-contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: #AEFFDE;
+    color: #333333;
+    border-radius: 12px;
+	margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: #E4F1FF;
+}
+.address {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+	color: #E4F1FF;
+}
+.address-info {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+	color: #E4F1FF;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.pf-info {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+	color: #E4F1FF;
+}
+.roommate-bio {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+	color: #E4F1FF;
+}
+
+@media only screen and (device-width: 640px),
+only screen and (max-width: 640px) {
+    .frame-container {
+        text-align: center;
+		overflow-x: hidden;
+        padding-bottom: 100px;
+		padding-top: 20px;
+    }
+    .frame-block2 {
+		width: 100%;
+		height: fit-content;
+        display: inline-block;
+        
+		margin: 0px;
+		margin-bottom: 5px;
+        /* border: 2px #0066FF solid; */
+        vertical-align: top;
+    }
+    .frame-block1 {
+		width: 100%;
+		height: fit-content;
+        display: inline-block;
+        
+		margin: 0px;
+		margin-bottom: 5px;
+        /* border: 2px #0066FF solid; */
+        vertical-align: top;
+    }
+    .frame-block3 {
+		width: 100%;
+		height: fit-content;
+        display: inline-block;
+        
+		margin: 0px;
+		margin-bottom: 5px;
+        /* border: 2px #0066FF solid; */
+        vertical-align: top;
+    }
+    .frame-block4 {
+		width: 100%;
+		height: fit-content;
+        display: inline-block;
+        
+		margin: 0px;
+		margin-bottom: 5px;
+        /* border: 2px #0066FF solid; */
+        vertical-align: top;
+    }
+    .back-button-pf {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        background-color: #333333;
+        padding-left: 20px;
+        color: #E4F1FF;
+        height: 50px;
+        text-decoration: none;
+        float: left;
+        padding-top: 20px;
+    }
+    .seller-info {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: #E4F1FF;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+    .big-image {
+		background: url("../images/profile-images/bedroom.webp");
+        background-size: 300px 250px, cover;
+        height: 250px;
+        width: 300px;
+    }
+    .small-images {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .small-images img {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+    .pf-contact {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        background-color: #AEFFDE;
+        color: #333333;
+        border-radius: 12px;
+        margin-top: 10px;
+        padding: 10px;
+        cursor: pointer;
+        border: #E4F1FF;
+    }
+    .pf-info {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: #E4F1FF;
+    }
+    .address {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: #E4F1FF;
+    }
+    .address-info {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: #E4F1FF;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

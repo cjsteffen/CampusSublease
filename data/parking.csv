@@ -1,0 +1,11 @@
+Address,Price,Covered,ImagePath,ID
+182 Walnut Way,100,covered,parking-spot.jpg,P1
+934 Hickory Drive,150,covered,parking-spot.jpg,P2
+308 Aspen Court,200,un-covered,parking-spot.jpg,P3
+715 Chestnut Lane,100,un-covered,parking-spot.jpg,P4
+527 Cypress Road,150,covered,parking-spot.jpg,P5
+186 Redwood Street,200,covered,parking-spot.jpg,P6
+673 Dogwood Avenue,100,un-covered,parking-spot.jpg,P7
+439 Palm Boulevard,150,un-covered,parking-spot.jpg,P8
+254 Juniper Lane,200,covered,parking-spot.jpg,P9
+846 Alder Road,300,covered,parking-spot.jpg,P10

@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/60203320/inserting-and-using-the-user-uploaded-image-in-html-and-javascript

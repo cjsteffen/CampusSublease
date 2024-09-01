@@ -1,0 +1,13 @@
+Address,Bedrooms,Bathrooms,Roommates,Utilities,Short Term,Parking,Price,Gender,ImagePath,ID
+456 Maple Avenue,1,1,1,all,yes,no,100,male,apartment-pf.jpg,A1
+789 Oak Drive,2,1,1,all,yes,no,200,male,house-pf.jpeg,A2
+321 Pine Street,3,2,1,all,no,yes,300,male,apartment-pf.jpg,A3
+654 Cedar Lane,4,2,1,all,no,yes,400,male,house-pf.jpeg,A4
+987 Birch Road,1,1,2,some,yes,no,500,female,house-pf.jpeg,A5
+132 Elm Street,2,2,2,some,yes,no,600,female,apartment-pf.jpg,A6
+246 Willow Boulevard,3,3,2,some,no,yes,700,female,apartment-pf.jpg,A7
+579 Cherry Court,4,4,2,some,no,yes,800,female,house-pf.jpeg,A8
+813 Spruce Avenue,1,4,3,all,yes,no,900,male,apartment-pf.jpg,A9
+375 Sycamore Drive,2,3,3,all,yes,no,1000,male,house-pf.jpeg,A10
+264 Poplar Lane,3,2,3,all,no,yes,1100,female,house-pf.jpeg,A11
+428 Magnolia Street,4,1,3,all,no,yes,1200,female,apartment-pf.jpg,A12

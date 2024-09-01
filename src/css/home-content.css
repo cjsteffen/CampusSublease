@@ -1,0 +1,353 @@
+*, *:after, *:before {margin: 0; padding: 0; box-sizing: border-box; position: relative;}
+
+.home-content {
+    margin-top: 100vh;
+	text-align: center;
+	padding-bottom: 50px;
+    background-color: #333333;
+    z-index: 1;
+}
+
+.frame-main {
+}
+
+.section {
+    color: #E4F1FF;
+    text-align: center;
+	padding-bottom: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    background: url("../images/students.JPG");
+    height: 600px;
+    width: 600px;
+    display: inline-block;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 25px;
+}
+@media only screen and (device-width: 640px),
+only screen and (max-width: 640px) {
+    .about-us {
+        background: url("../images/students.JPG");
+        background-size: 640px 400px, cover;
+        height: 300px;
+        width: 640px;
+        display: inline-block;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+    }
+}    
+
+.apartments-home {
+    background: url("../images/apartments-group.png");
+    width: 600px;
+    height: 600px;
+    background-position: -80px -20px;
+    display: inline-block;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 25px;
+}
+@media only screen and (device-width: 640px),
+only screen and (max-width: 640px) {
+    .apartments-home {
+        background: url("../images/apartments-group.png");
+        background-size: 500px 400px, cover;
+        height: 350px;
+        width: 640px;
+        background-position: 0px -50px;
+        display: inline-block;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+    }
+}
+
+.houses-home {
+    background: url("../images/houses-row.jpg");
+    width: 600px;
+    height: 600px;
+    background-position: -350px 0;
+    display: inline-block;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 25px;
+}
+@media only screen and (device-width: 640px),
+only screen and (max-width: 640px) {
+    .houses-home {
+        background: url("../images/houses-row.jpg");
+        background-size: 600px 400px, cover;
+        height: 350px;
+        width: 640px;
+        background-position: -250px -40px;
+        display: inline-block;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+    }
+}
+
+.roommates-home {
+    background: url("../images/roommates.jpg");
+    width: 600px;
+    height: 600px;
+    background-position: -200px 0;
+    display: inline-block;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 25px;
+}
+@media only screen and (device-width: 640px),
+only screen and (max-width: 640px) {
+    .roommates-home {
+        background: url("../images/roommates.jpg");
+        background-size: 600px 400px, cover;
+        height: 350px;
+        width: 640px;
+        background-position: -150px -40px;
+        display: inline-block;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+    }
+}
+
+.parking-home {
+    background: url("../images/parking.jpg");
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 25px;
+}
+@media only screen and (device-width: 640px),
+only screen and (max-width: 640px) {
+    .parking-home {
+        background: url("../images/parking.jpg");
+        background-size: 600px 400px, cover;
+        height: 350px;
+        width: 640px;
+        background-position: 0px 0px;
+        display: inline-block;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+    }
+}
+
+.text-space {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E4F1FF;
+    font-size: 25;
+    font-weight: 100;
+    height: 200px;
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 50px;
+}
+.text-space1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E4F1FF;
+    font-size: 25;
+    font-weight: 100;
+    height: 200px;
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 50px;
+    order: -1;
+}
+.text-space2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E4F1FF;
+    font-size: 25;
+    font-weight: 100;
+    height: 200px;
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 50px;
+}
+.text-space3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E4F1FF;
+    font-size: 25;
+    font-weight: 100;
+    height: 200px;
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 50px;
+    order: -1;
+}
+.text-space4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E4F1FF;
+    font-size: 25;
+    font-weight: 100;
+    height: 200px;
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px #0066FF solid; */
+	vertical-align: middle;
+    margin: 50px;
+}
+
+
+
+@media only screen and (device-width: 640px),
+only screen and (max-width: 800px) {
+    .helpful-links {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #E4F1FF;
+        font-weight: bold;
+        font-size: 25px;
+        height: 100px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px #0066FF solid; */
+        left: 50%;
+        padding-top: 75px;
+        z-index: 2;
+    }
+    .on-helpful-links {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #E4F1FF;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        width: 300px;
+        height: 100px;
+        display: block;
+        /* border: 2px #0066FF solid; */
+        left: 50%;
+        z-index: 2;
+    }
+    .text-space {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #E4F1FF;
+        font-size: 25;
+        font-weight: 100;
+        height: 200px;
+        width: 500px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+    .text-space1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #E4F1FF;
+        font-size: 25;
+        font-weight: 100;
+        height: 200px;
+        width: 500px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+        order: 1;
+    }
+    .text-space2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #E4F1FF;
+        font-size: 25;
+        font-weight: 100;
+        height: 200px;
+        width: 500px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+    }
+    .text-space3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #E4F1FF;
+        font-size: 25;
+        font-weight: 100;
+        height: 200px;
+        width: 500px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+        order: 1;
+    }
+    .text-space4 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #E4F1FF;
+        font-size: 25;
+        font-weight: 100;
+        height: 200px;
+        width: 500px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px #0066FF solid; */
+        vertical-align: middle;
+        margin: 25px;
+    }
+}
+
+/* FIX THIS STILL */
+@media only screen and (device-width: 640px),
+only screen and (max-width: 800px) {
+    .contact-us {
+        text-align: center;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px #0066FF solid; */
+    }
+    .logo {
+        display: none
+    }
+}

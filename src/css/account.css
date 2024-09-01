@@ -1,0 +1,254 @@
+*, *:after, *:before {margin: 0; padding: 0; box-sizing: border-box; position: relative;}
+
+.setup {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #333333;
+    margin: 0 auto;
+	text-align: center;
+    margin-top: 75px;
+}
+.pfp {
+    background-color: #333333;
+    color: #E4F1FF;
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+    z-index: 1;
+    margin-top: 100px;
+    margin: 25px;
+    vertical-align: top;
+    position: relative;
+}
+.pfp-image {
+    position: absolute;
+    size: 200px 200px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.info {
+    background-color: #333333;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: #E4F1FF;
+    width: 400px;
+    height: 250px;
+    z-index: 1;
+    margin-top: 100px;
+    margin: 25px;
+    padding-top: 25px;
+    vertical-align: top;
+}
+.add-sublease {
+    background-color: #555555;
+    border-color: #E4F1FF;
+    border: 2px double;
+    display: inline-block;
+    color: #E4F1FF;
+    width: 600px;
+    height: 250px;
+    z-index: 1;
+    margin: 25px;
+    border-radius: 8px;
+    vertical-align: top;
+}
+.sublease-container {
+    background-color: #333333;
+    width: 585px;
+    height: 50px;
+    color: #E4F1FF;
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.edit-profile {
+    background-color: #555555;
+    border-color: #E4F1FF;
+    border: 2px double;
+    display: inline-block;
+    color: #E4F1FF;
+    width: 600px;
+    height: 250px;
+    z-index: 1;
+    margin: 25px;
+    border-radius: 8px;
+    vertical-align: top;
+}
+.profile-container {
+    background-color: #333333;
+    width: 585px;
+    height: 50px;
+    color: #E4F1FF;
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.edit-button {
+    margin-left: auto;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+.inbox-button {
+    height: 35px;
+    width: 75px;
+    background-color: #AEFFDE;
+    border-radius: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+    padding-top: 3px;
+    text-align: center;
+}
+
+/* SMALLER SCREENS */
+@media only screen and (device-width: 640px),
+only screen and (max-width: 1000px) {
+    .setup {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #333333;
+        text-align: center;
+        margin-top: 75px;
+        z-index: 3;
+        padding-bottom: 100px;
+    }
+    .pfp {
+        background-color: #333333;
+        color: #E4F1FF;
+        display: inline-block;
+        width: 100%;
+        height: 175px;
+        z-index: 1;
+        margin: 25px;
+        margin-left: 0;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        vertical-align: top;
+    }
+    .pfp-image {
+        margin-top: 100px;
+        size: 200px 200px;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    .info {
+        background-color: #333333;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        color: #E4F1FF;
+        width: 100%;
+        height: 250px;
+        z-index: 1;
+        margin: 25px;
+        margin-top: 35px;
+        padding-top: 0;
+        vertical-align: top;
+        margin-left: auto;
+    }
+    .add-sublease {
+        background-color: #555555;
+        border-color: #E4F1FF;
+        border: 2px double;
+        display: inline-flex;
+        flex-direction: column;
+        color: #E4F1FF;
+        width: 90%;
+        height: 250px;
+        z-index: 1;
+        margin: 25px;
+        margin-top: 0;
+        vertical-align: top;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+    }
+    .sublease-container {
+        background-color: #333333;
+        width: 95%;
+        height: 50px;
+        color: #E4F1FF;
+        font-size: 20px;
+        text-align: left;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    .edit-profile {
+        background-color: #555555;
+        border-color: #E4F1FF;
+        border: 2px double;
+        display: inline-flex;
+        flex-direction: column;
+        color: #E4F1FF;
+        width: 90%;
+        height: 250px;
+        z-index: 1;
+        margin: 25px;
+        vertical-align: top;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .profile-container {
+        background-color: #333333;
+        width: 95%;
+        height: 50px;
+        color: #E4F1FF;
+        font-size: 20px;
+        text-align: left;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    .edit-button {
+        margin-left: auto;
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    .name {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-wrap: nowrap;
+    }
+    .inbox-button {
+        height: 35px;
+        width: 75px;
+        background-color: #AEFFDE;
+        border-radius: 8px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        color: #333333;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-left: 2px;
+        margin: 0 auto;
+    }
+}

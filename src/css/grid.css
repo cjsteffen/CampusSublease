@@ -1,0 +1,294 @@
+*, *:after, *:before {margin: 0; padding: 0; box-sizing: border-box; position: relative;}
+
+.parking-grid,
+.apt-grid,
+.house-grid,
+.roommate-grid {
+    margin: 0 auto;
+	text-align: center;
+	padding-bottom: 100px;
+    max-width: 1500px;
+    background-color: #333333;
+}
+
+.frame-main {
+}
+.roommate {
+	display: inline-block;
+    color: #333333;
+    font-size: 16px;
+    background-color: #E4F1FF;
+    border-radius: 12px;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    margin-top: 70px;
+    z-index: 1;
+    vertical-align: top;
+}
+.apt,
+.house {
+    display: inline-block;
+    color: #333333;
+    font-size: 15px;
+    background-color: #E4F1FF;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 250px;
+    width: 250px;
+    z-index: 1;
+    margin: 25px;
+    margin-top: 100px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.parking {
+    display: inline-block;
+    color: #333333;
+    font-size: 15px;
+    background-color: #E4F1FF;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 250px;
+    width: 250px;
+    z-index: 1;
+    margin: 50px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.apt-info-cont,
+.house-info-cont {
+    background-color: #333333;
+    color: #E4F1FF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 15px;
+    border: #E4F1FF;
+    border-style: solid;
+    padding-bottom: 5px;
+    margin-top: 225px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    z-index: 1;
+}
+.parking-info-cont {
+    background-color: #333333;
+    color: #E4F1FF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 15px;
+    border: #E4F1FF;
+    border-style: solid;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    margin-top: 220px;
+    height: 50px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    z-index: 1;
+}
+.roommate-info-cont{
+    background-color: #E4F1FF;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    float: right;
+    border-radius: 12px;
+    padding-right: 20px;
+    padding-top: 15px;
+    z-index: 1;
+}
+.roommate-about-me {
+    color: #333333;
+    float: left;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+} */
+.parking-info,
+.roommate-info,
+.apt-info,
+.house-info {
+    padding-top: 5px;
+}
+.roommate-profile {
+    border-radius: 12px;
+    display: flex;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.parking-profile {
+    border-radius: 12px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.house-profile,
+.apt-profile {
+    border-radius: 12px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
+/* for all them */
+.quick-links-grid {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #333333;
+    color: #E4F1FF;
+    position: absolute;
+    text-align: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 1%;
+    z-index: 5;
+}
+.contact-us-grid {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #333333;
+    color: #E4F1FF;
+    padding: 10px;
+    padding-top: 50px;
+    height: 250px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    z-index: 2;
+    overflow-y: hidden;
+    position: relative;
+}
+
+
+
+@media only screen and (device-width: 640px),
+only screen and (max-width: 640px) {
+    .roommate {
+        display: inline-block;
+        color: #333333;
+        font-size: 16px;
+        background-color: #E4F1FF;
+        border-radius: 12px;
+        height: 350px;
+        width: 350px;
+        margin: 20px;
+        margin-top: 50px;
+        z-index: 1;
+        vertical-align: top;
+    }
+    .apt,
+    .house {
+        display: inline-block;
+        color: #333333;
+        font-size: 15px;
+        background-color: #E4F1FF;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        height: 150px;
+        width: 150px;
+        z-index: 1;
+        margin: 10px;
+        margin-top: 50px;
+        vertical-align: top;
+        cursor: pointer;
+    }
+    .parking {
+        display: inline-block;
+        color: #333333;
+        font-size: 15px;
+        background-color: #E4F1FF;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        height: 150px;
+        width: 150px;
+        z-index: 1;
+        margin: 10px;
+        margin-top: 50px;
+        vertical-align: top;
+        cursor: pointer;
+    }
+    .roommate-profile {
+        border-radius: 12px;
+        display: flex;
+        float: left;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .parking-profile {
+        /* background-image: url("../../images/parking-spot.jpg"); */
+        height: 125px;
+        width: 125px;
+        border-radius: 12px;
+        margin-left: 12.5px;
+        margin-top: 0;
+    }
+    .house-profile,
+    .apt-profile {
+        background-image: url("../../images/profile-images/house-pf.jpeg");
+        height: 125px;
+        width: 125px;
+        border-radius: 12px;
+        margin-left: 12.5px;
+        margin-top: 0;
+    }
+    .apt-info-cont,
+    .house-info-cont {
+        background-color: #333333;
+        color: #E4F1FF;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 12.5px;
+        border: #E4F1FF;
+        border-style: solid;
+        padding-bottom: 5px;
+        margin-top: 125px;
+        padding-top: 5px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        z-index: 1;
+    }
+    .parking-info-cont {
+        background-color: #333333;
+        color: #E4F1FF;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 12px;
+        border: #E4F1FF;
+        border-style: solid;
+        margin-top: 130px;
+        padding-top: 5px;
+        height: 30px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        z-index: 1;
+    }
+    .roommate-info-cont{
+        background-color: #E4F1FF;
+        color: #333333;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        float: right;
+        border-radius: 12px;
+        padding-right: 20px;
+        padding-top: 15px;
+        z-index: 1;
+    }
+    .parking-info {
+        position: relative;
+        float: right;
+        
+    }
+}

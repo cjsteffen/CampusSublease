@@ -1,0 +1,21 @@
+houses-
+    text-
+    "If only there was a place to find a room in a house somewhere on campus... oh wait"
+
+apartments-
+    text-
+    "Looking for a skyrise to call home? I'm sure you'll find something here!"
+
+parking-
+    text-
+    "We've got you covered (or un-covered) when searching for a parking spot."
+
+roommates-
+    text-
+    "Want to reach out to some people you could see yourself living with? Check out some of these profiles!"
+
+chat feature!!!!!
+    figure out how to make this, I think security wise this could be a great feature
+
+about us-
+    Campus Sublease is meant to create a safer and easier subleasing process for students. This platform is your bridge to meeting new roommates, or getting some money back while you study abroad, leave for the summer, or need to swap leases to a different place.

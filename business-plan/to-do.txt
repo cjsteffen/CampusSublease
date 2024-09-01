@@ -1,0 +1,35 @@
+- html files
+    - homescreen
+    - houses
+    - apartments
+    - parking
+    - roommates
+    - chat
+        - messages NEED TO DO
+    - pal
+    - pap
+    - map
+    - login
+    - profiles
+        - apartments
+        - house
+        - roommates
+        - parking
+
+
+-css files
+    - just start making them as you go for each new type of file, too complicated otherwise
+
+- python scripts
+    - write to csv NEED TO DO
+    - add and remove objects NEED TO DO
+    - login objects and that information NEED TO DO
+    - create ID's for everything NEED TO DO
+
+- javascript
+    - modernize homescreen and other html files NEED TO DO
+
+
+FIX INSTAGRAM BUTTON FOR EACH FILE
+ENLARGE HOUSES/APARTMENTS/PARKING FOR WHEN USING A PHONE
+SUMMER LEASES (ADD FILTER)
